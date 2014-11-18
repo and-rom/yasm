@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+header, nav, section, article, aside, footer {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+	height: 100%;
+	width:100%
+}
+a {
+	color: blue;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0 0 18px
+}
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+}
+#wrapper {
+	min-width: 500px;
+	max-width: 2000px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 50px;
+	background: #333333;
+	color: #FFFFFF;
+	padding: 0.5em;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+	width: 100%;
+	padding: 0 0 50px;
+	height: 1%;
+	position: relative;
+}
+#middle:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+#container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+#content {
+	padding: 0px 270px 0 5px;
+}
+#now {
+	float: right;
+}
+#latest-container {
+	width: 100%;
+        height: 1%;
+	padding-top:5px;
+	/*border: 1px solid black;*/
+}
+#latest-container:after {
+	content: '';
+	clear: both;
+        display: table;
+}
+.latest {
+	/*min-width: 25%;*/
+	max-width:25%;
+	width:20%;
+	float:left;
+	background: #DDDDDD;
+	/*border: 1px solid black;*/
+}
+.latest-descr {
+	width: 100%;
+	font-size: 12pt;
+	text-align: center;
+	background: #333333;
+	color: #FFFFFF;
+	/*border: 1px solid black;*/
+}
+.latest-value {
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	text-align: center;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.alert {
+	color: red;
+}
+
+#display-container{
+	width: 100%;
+	height: 1%;
+	padding-top:5px;
+	/*border: 1px solid red;*/
+}
+#display-container:after {
+	content: '';
+	clear: both;
+        display: table;
+}
+.display {
+	width:50%;
+	float:left;
+	/*border: 1px solid black;*/
+}
+.display-frame {
+	width:100%;
+}
+/* Sidebar Right
+-----------------------------------------------------------------------------*/
+#sideRight {
+	float: left;
+	margin-right: -3px;
+	width: 250px;
+	margin-left: -250px;
+	position: relative;
+	background: #FFACAA;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	margin: -50px auto 0;
+	min-width: 500px;
+	max-width: 2000px;
+	height: 50px;
+	background: #333333;
+	color: #FFFFFF;
+	position: relative;
+}
